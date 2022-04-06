@@ -9,7 +9,7 @@ source /path/env
 ```
 - Install Django requirements
 ```sh
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Installation 
@@ -31,14 +31,4 @@ sudo service postgresql start
 - Check the status
 ```sh
 sudo service postgresql status
-```
-
-- Use postgres super user
-```sh
-sudo -u postgres -i
-```
-
-- Connect to postgresql
-```sh
-psql
 ```
