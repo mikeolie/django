@@ -32,3 +32,4 @@ sudo service postgresql start
 ```sh
 sudo service postgresql status
 ```
+- 
