@@ -32,3 +32,13 @@ sudo service postgresql start
 ```sh
 sudo service postgresql status
 ```
+
+- Use postgres super user
+```sh
+sudo -u postgres -i
+```
+
+- Connect to postgresql
+```sh
+psql
+```
