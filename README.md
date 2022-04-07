@@ -32,3 +32,21 @@ sudo service postgresql start
 ```sh
 sudo service postgresql status
 ```
+
+
+
+### Common Errors
+
+
+#### Postgresql isn't running
+
+```sh
+django.db.utils.OperationalError: connection to server at "127.0.0.1", port 5432 failed: Connection refused
+        Is the server running on that host and accepting TCP/IP connections?
+```
+
+Solution
+
+```sh
+sudo service postgresql start
+```
