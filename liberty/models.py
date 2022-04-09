@@ -1,5 +1,6 @@
 from cgi import print_exception
 from email import message_from_string
+from pyexpat import model
 from django.db import models
 
 
@@ -15,7 +16,8 @@ class Products(models.Model):
     description = models.CharField(max_length=256)
     total_units = models.IntegerField()
     price = models.DecimalField(max_digits=10, decimal_places=2,)
-    avg_cogs = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+    avg_cogs = models.DecimalField(
+        max_digits=10, decimal_places=2, default=0.00)
     profit = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
     margin = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
     mintage = models.IntegerField()
@@ -29,3 +31,17 @@ class Products(models.Model):
     categories = models.TextField(default="Peace")
     display_y_n = models.CharField(max_length=256)
     images_y_n = models.CharField(max_length=256)
+
+
+class RequestLog(models.Model):
+    advisor = models.CharField(max_length=120)
+    customer = models.IntegerField()
+    description = models.CharField(max_length=120)
+    budget = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+    grade = models.CharField(max_length=120)
+    notes = models.TextField()
+    admin_notes = models.TextField()
+    status = models.CharField(max_length=120)
+    sold = models.CharField(max_length=120)
+    display_y_n = models.CharField(max_length=120)
+    timestamp = models.DateTimeField()
