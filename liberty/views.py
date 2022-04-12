@@ -11,6 +11,8 @@ def index(request):
 
 def products(request):
     auth = LDAPBackend()
-    user = auth.authenticate(username='molie', password=env('MY_LDAP_PASS'))
-    print(user)
+    user = auth.authenticate(request, username=env('LDAP_USER'), password=env('LDAP_PASS'))
+    if user is None:
+        return JsonResponse({ "message": "unable to get user" })
+
     return JsonResponse({'message': "Success"})

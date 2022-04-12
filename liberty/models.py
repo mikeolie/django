@@ -1,4 +1,3 @@
-from asyncio import constants
 import django
 from django.db import models
 from django.contrib.postgres.fields import ArrayField
@@ -33,3 +32,17 @@ class Products(models.Model):
     categories = models.TextField(default="Peace")
     display_y_n = models.CharField(default="", max_length=256)
     images_y_n = models.CharField(default="", max_length=256)
+
+
+class RequestLog(models.Model):
+    advisor = models.CharField(max_length=120)
+    customer = models.IntegerField()
+    description = models.CharField(max_length=120)
+    budget = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+    grade = models.CharField(max_length=120)
+    notes = models.TextField()
+    admin_notes = models.TextField()
+    status = models.CharField(max_length=120)
+    sold = models.CharField(max_length=120)
+    display_y_n = models.CharField(max_length=120)
+    timestamp = models.DateTimeField()
