@@ -1,4 +1,5 @@
 from django.http import HttpResponse, JsonResponse
+from django_auth_ldap.backend import LDAPBackend
 
 
 def index(request):
@@ -6,4 +7,7 @@ def index(request):
 
 
 def products(request):
+    user = LDAPBackend().populate_user('molie')
+    if user is None:
+        raise Exception("No User found")
     return JsonResponse({'message': "Success"})
