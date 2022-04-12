@@ -14,7 +14,8 @@ from pathlib import Path
 import environ
 import ldap
 from django_auth_ldap.config import LDAPSearch, GroupOfNamesType
-import logging, logging.handlers
+import logging
+import logging.handlers
 
 # Initialize environment variables
 
@@ -40,13 +41,10 @@ ALLOWED_HOSTS = []
 # # # # # --- LDAP SERVER CONFIG --- # # # # #
 
 AUTH_LDAP_SERVER_URI = env('LDAP_SERVER_URI')
-AUTH_LDAP_BIND_DN = env('LDAP_TREE') 
+AUTH_LDAP_BIND_DN = env('LDAP_USER')
 AUTH_LDAP_BIND_PASSWORD = env('LDAP_PASS')
 AUTH_LDAP_USER_SEARCH = LDAPSearch(
-    env('LDAP_TREE'), ldap.SCOPE_SUBTREE) 
-AUTH_LDAP_MIRROR_GROUPS = True
-
-AUTH_LDAP_REQUIRE_GROUP = env('LDAP_TREE')
+    env('LDAP_TREE'), ldap.SCOPE_SUBTREE, "sAMAccountName=%(user)s")
 
 AUTH_LDAP_USER_ATTR_MAP = {
     "first_name": "givenName",
@@ -54,6 +52,16 @@ AUTH_LDAP_USER_ATTR_MAP = {
     "email": "mail",
     "username": "sAMAccountName",
 }
+
+from django_auth_ldap.config import ActiveDirectoryGroupType
+
+AUTH_LDAP_GROUP_SEARCH = LDAPSearch(env('LDAP_TREE'), ldap.SCOPE_SUBTREE, "(objectCategory=Group)")
+AUTH_LDAP_GROUP_TYPE = ActiveDirectoryGroupType(name_attr="cn")
+
+
+AUTH_LDAP_MIRROR_GROUPS = True
+
+AUTH_LDAP_CACHE_GROUPS = True
 
 LOGGING = {
     'version': 1,
@@ -72,6 +80,12 @@ LOGGING = {
         }
     }
 }
+
+
+AUTHENTICATION_BACKENDS = [
+    'django_auth_ldap.backend.LDAPBackend',
+    'django.contrib.auth.backends.ModelBackend'
+]
 
 
 # Application definition
@@ -183,5 +197,6 @@ results = con.search_s(env('LDAP_TREE'), ldap.SCOPE_SUBTREE)
 logfile = "/tmp/django-ldap-debug.log"
 my_logger = logging.getLogger('django_auth_ldap')
 my_logger.setLevel(logging.DEBUG)
-handler  = logging.handlers.RotatingFileHandler(logfile, maxBytes=1024 * 500, backupCount=5)
+handler = logging.handlers.RotatingFileHandler(
+    logfile, maxBytes=1024 * 500, backupCount=5)
 my_logger.addHandler(handler)
