@@ -1,5 +1,8 @@
+import environ
 from django.http import HttpResponse, JsonResponse
 from django_auth_ldap.backend import LDAPBackend
+
+env = environ.Env()
 
 
 def index(request):
@@ -7,7 +10,7 @@ def index(request):
 
 
 def products(request):
-    user = LDAPBackend().populate_user('molie')
-    if user is None:
-        raise Exception("No User found")
+    auth = LDAPBackend()
+    user = auth.authenticate(username='molie', password=env('MY_LDAP_PASS'))
+    print(user)
     return JsonResponse({'message': "Success"})
