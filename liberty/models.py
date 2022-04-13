@@ -2,6 +2,7 @@ from cgi import print_exception
 from email import message_from_string
 from pyexpat import model
 from django.db import models
+from django_seed import Seed
 
 
 class Test(models.Model):
