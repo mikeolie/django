@@ -1,5 +1,5 @@
 #!/bin/sh
-branch_name=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+branch_name=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p') # get branch name
 
 echo "Staging to git..."
 

@@ -1,6 +1,5 @@
 import django
 from django.db import models
-from django_seed import Seed
 from django.contrib.postgres.fields import ArrayField
 
 
