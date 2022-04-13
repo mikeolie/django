@@ -33,6 +33,10 @@ sudo service postgresql start
 sudo service postgresql status
 ```
 
+### Additional Info
+
+[Database Diagram](https://dbdiagram.io/d/6250b13a2514c97903fb39de)
+
 
 
 ### Common Errors

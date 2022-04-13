@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import environ
+import ldap
+from django_auth_ldap.config import LDAPSearch
+import logging
+import logging.handlers
 
 # Initialize environment variables
 
@@ -33,6 +37,55 @@ SECRET_KEY = 'django-insecure-2_9%gf_d@=q_*a((lv-arc4!g&pvk+5!4%@e%)az5%6q727vaw
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+# # # # # --- LDAP SERVER CONFIG --- # # # # #
+
+AUTH_LDAP_SERVER_URI = env('LDAP_SERVER_URI')
+AUTH_LDAP_BIND_DN = env('LDAP_USER')
+AUTH_LDAP_BIND_PASSWORD = env('LDAP_PASS')
+AUTH_LDAP_USER_SEARCH = LDAPSearch(
+    env('LDAP_TREE'), ldap.SCOPE_SUBTREE, "sAMAccountName=%(user)s")
+
+AUTH_LDAP_USER_ATTR_MAP = {
+    "first_name": "givenName",
+    "last_name": "sn",
+    "email": "mail",
+    "username": "sAMAccountName",
+}
+
+from django_auth_ldap.config import ActiveDirectoryGroupType
+
+AUTH_LDAP_GROUP_SEARCH = LDAPSearch(env('LDAP_TREE'), ldap.SCOPE_SUBTREE, "(objectCategory=Group)")
+AUTH_LDAP_GROUP_TYPE = ActiveDirectoryGroupType(name_attr="cn")
+
+
+AUTH_LDAP_MIRROR_GROUPS = True
+
+AUTH_LDAP_CACHE_GROUPS = True
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'stream_to_console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler'
+        }
+    },
+    'loggers': {
+        'django_auth_ldap': {
+            'handlers': ['stream_to_console'],
+            'level': 'DEBUG',
+            'propagate': True
+        }
+    }
+}
+
+
+AUTHENTICATION_BACKENDS = [
+    'django_auth_ldap.backend.LDAPBackend',
+    'django.contrib.auth.backends.ModelBackend'
+]
 
 
 # Application definition
@@ -134,3 +187,17 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# # # # # --- LDAP SAMPLE CONN --- # # # # #
+
+con = ldap.initialize(env('LDAP_SERVER_URI'))
+con.simple_bind_s(env('LDAP_USER'), env('LDAP_PASS'))
+results = con.search_s(env('LDAP_TREE'), ldap.SCOPE_SUBTREE)
+
+# # # # # --- LDAP SERVER CONFIG --- # # # # #
+logfile = "/tmp/django-ldap-debug.log"
+my_logger = logging.getLogger('django_auth_ldap')
+my_logger.setLevel(logging.DEBUG)
+handler = logging.handlers.RotatingFileHandler(
+    logfile, maxBytes=1024 * 500, backupCount=5)
+my_logger.addHandler(handler)
