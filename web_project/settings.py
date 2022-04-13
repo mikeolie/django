@@ -53,16 +53,6 @@ AUTH_LDAP_USER_ATTR_MAP = {
     "username": "sAMAccountName",
 }
 
-from django_auth_ldap.config import ActiveDirectoryGroupType
-
-AUTH_LDAP_GROUP_SEARCH = LDAPSearch(env('LDAP_TREE'), ldap.SCOPE_SUBTREE, "(objectCategory=Group)")
-AUTH_LDAP_GROUP_TYPE = ActiveDirectoryGroupType(name_attr="cn")
-
-
-AUTH_LDAP_MIRROR_GROUPS = True
-
-AUTH_LDAP_CACHE_GROUPS = True
-
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,

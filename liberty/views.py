@@ -8,6 +8,11 @@ env = environ.Env()
 def index(request):
     return HttpResponse("Hello, world. You're at the Liberty index.")
 
+def signIn(request):
+    return JsonResponse({ 'message': "Signed In!"})
+
+def signOut(request):
+    return JsonResponse({ "message": "Signed Out!"})
 
 def products(request):
     auth = LDAPBackend()
