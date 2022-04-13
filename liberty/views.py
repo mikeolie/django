@@ -21,6 +21,7 @@ def signIn(request):
     return JsonResponse({ 'message': "Signed In!"})
 
 def signOut(request):
+    logout(request)
     return JsonResponse({ "message": "Signed Out!"})
 
 def products(request):
