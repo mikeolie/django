@@ -81,6 +81,7 @@ AUTHENTICATION_BACKENDS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'django_seed',
     'liberty.apps.LibertyConfig',
     'django.contrib.admin',
     'django.contrib.auth',
