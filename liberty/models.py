@@ -12,7 +12,7 @@ def highlights_default():
 
 class Category(models.Model):
     name = models.CharField(default="", max_length=120)
-    parent_category = models.ForeignKey("self", null=True, blank=True, on_delete=models.CASCADE)
+    parent_category = models.ForeignKey("self", null=True, blank=True, on_delete=models.DO_NOTHING)
 
 class RequestLog(models.Model):
     advisor = models.CharField(default="", max_length=120)
@@ -45,6 +45,6 @@ class Products(models.Model):
     finer_known = models.IntegerField(default=0)
     highlights = ArrayField(models.CharField(max_length=256, blank=True), default=highlights_default)
     vendor = models.CharField(default="", max_length=256)
-    categories = models.ForeignKey(Category, null=True, blank=True, on_delete=models.CASCADE)
+    categories = models.ForeignKey(Category, null=True, blank=True, on_delete=models.DO_NOTHING)
     display_y_n = models.CharField(default="", max_length=256)
     images_y_n = models.CharField(default="", max_length=256)
