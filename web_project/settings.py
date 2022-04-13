@@ -53,6 +53,8 @@ AUTH_LDAP_USER_ATTR_MAP = {
     "username": "sAMAccountName",
 }
 
+AUTH_LDAP_ALWAYS_UPDATE_USER = True
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -77,6 +79,11 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend'
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication'
+    ]
+}
 
 # Application definition
 
