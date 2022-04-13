@@ -11,6 +11,22 @@ class Test(models.Model):
 def highlights_default():
     return list([''])
 
+class Category(models.Model):
+    name = models.CharField(default="", max_length=120)
+    parent_category = models.ForeignKey("self", null=True, blank=True, on_delete=models.DO_NOTHING)
+
+class RequestLog(models.Model):
+    advisor = models.CharField(default="", max_length=120)
+    customer = models.IntegerField(default=0)
+    description = models.CharField(default="",max_length=120)
+    budget = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+    grade = models.CharField(default="",max_length=120)
+    notes = models.TextField(default="")
+    admin_notes = models.TextField(default="")
+    status = models.CharField(default="",max_length=120)
+    sold = models.CharField(default="",max_length=120)
+    display_y_n = models.CharField(default="",max_length=120)
+    timestamp = models.DateTimeField(default=django.utils.timezone.now)
 
 class Products(models.Model):
     date_added = models.DateTimeField(default=django.utils.timezone.now)
@@ -30,20 +46,6 @@ class Products(models.Model):
     finer_known = models.IntegerField(default=0)
     highlights = ArrayField(models.CharField(max_length=256, blank=True), default=highlights_default)
     vendor = models.CharField(default="", max_length=256)
-    categories = models.TextField(default="Peace")
+    categories = models.ForeignKey(Category, null=True, blank=True, on_delete=models.DO_NOTHING)
     display_y_n = models.CharField(default="", max_length=256)
     images_y_n = models.CharField(default="", max_length=256)
-
-
-class RequestLog(models.Model):
-    advisor = models.CharField(default="", max_length=120)
-    customer = models.IntegerField(default=0)
-    description = models.CharField(default="",max_length=120)
-    budget = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
-    grade = models.CharField(default="",max_length=120)
-    notes = models.TextField(default="")
-    admin_notes = models.TextField(default="")
-    status = models.CharField(default="",max_length=120)
-    sold = models.CharField(default="",max_length=120)
-    display_y_n = models.CharField(default="",max_length=120)
-    timestamp = models.DateTimeField(default=django.utils.timezone.now)
