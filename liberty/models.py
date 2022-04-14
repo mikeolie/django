@@ -33,6 +33,7 @@ class Products(models.Model):
     item_no = models.CharField(max_length=120)
     description = models.CharField(default="", max_length=256)
     total_units = models.IntegerField(default=0)
+    is_featured = models.BooleanField(default=False)
     price = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
     avg_cogs = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
     profit = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
