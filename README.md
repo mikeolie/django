@@ -57,7 +57,6 @@ This will seed all of your data into the database specified in your environment 
 [Database Diagram](https://dbdiagram.io/d/6250b13a2514c97903fb39de)
 
 
-
 ### Common Errors
 
 
