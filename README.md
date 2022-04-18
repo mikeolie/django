@@ -33,6 +33,25 @@ sudo service postgresql start
 sudo service postgresql status
 ```
 
+
+### Seed Database
+
+NOTE: Make sure database is created and migrations are ran already!
+
+To run migration, use:
+
+```sh
+  python manage.py makemigrations && python manage.py migrate
+```
+
+Seed Command:
+
+```sh
+ python manage.py loaddata seed/0001_Liberty.json
+```
+
+This will seed all of your data into the database specified in your environment file
+
 ### Additional Info
 
 [Database Diagram](https://dbdiagram.io/d/6250b13a2514c97903fb39de)
