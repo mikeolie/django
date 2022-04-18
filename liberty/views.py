@@ -6,6 +6,8 @@ from django.contrib.auth import logout, login
 
 from liberty.models import Products
 
+from liberty.serializers import ProductSerializer
+
 env = environ.Env()
 auth = LDAPBackend()
 
@@ -33,5 +35,5 @@ def signOut(request):
 
 def products(request):
     numismatic_coins = Products.objects.all()[:50]
-    data = serializers.serialize('json', numismatic_coins)
-    return JsonResponse({'message': "Success", "products": data})
+    serialized_products = ProductSerializer(numismatic_coins)
+    return JsonResponse({'message': "Success", "products": serialized_products})
