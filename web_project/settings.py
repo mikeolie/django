@@ -89,6 +89,7 @@ REST_FRAMEWORK = {
 
 INSTALLED_APPS = [
     'django_seed',
+    'rest_framework',
     'liberty.apps.LibertyConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -162,6 +163,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# SERIALIZATION_MODULES = {
+#     'my_format': liberty.serializers.MyFormatSerializer
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
@@ -179,6 +183,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# DEFAULT WHITELIST
+
+CORS_ORIGIN_WHITELIST = {
+    'localhost:3000'
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
