@@ -1,3 +1,4 @@
+import json
 import environ
 from django.core import serializers
 from django.http import HttpResponse, JsonResponse
@@ -34,6 +35,6 @@ def signOut(request):
 
 
 def products(request):
-    numismatic_coins = Products.objects.all()[:50]
-    serialized_products = ProductSerializer(numismatic_coins)
-    return JsonResponse({'message': "Success", "products": serialized_products})
+    queryset = Products.objects.all().values()
+    data_list = list(queryset) 
+    return JsonResponse({"data": data_list})
