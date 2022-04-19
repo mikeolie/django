@@ -5,7 +5,7 @@ from django.http import HttpResponse, JsonResponse
 from django_auth_ldap.backend import LDAPBackend
 from django.contrib.auth import logout, login
 
-from liberty.models import Products
+from liberty.models import Products, RequestLog
 
 from liberty.serializers import ProductSerializer
 
@@ -36,5 +36,11 @@ def signOut(request):
 
 def products(request):
     queryset = Products.objects.all().values()
-    data_list = list(queryset) 
+    data_list = list(queryset)
+    return JsonResponse({"data": data_list})
+
+
+def requestlog(request):
+    queryset = RequestLog.objects.all().values()
+    data_list = list(queryset)
     return JsonResponse({"data": data_list})
