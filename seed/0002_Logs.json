@@ -1,0 +1,2739 @@
+[
+    {
+        "model": "liberty.requestlog",
+        "pk": 1,
+        "fields": {
+            "sold": false,
+            "grade": "MS65",
+            "notes": "Filling out PCGS Double Eagle Type Set",
+            "budget": 75000,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 239046,
+            "admin_notes": "",
+            "description": "1908-D St Gaudens Double Eagle",
+            "date_added": "2022-02-22 11:15:47.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 2,
+        "fields": {
+            "sold": false,
+            "grade": "VF",
+            "notes": "Last one to complete his collection. ",
+            "budget": 4000,
+            "status": "Denied",
+            "advisor": "TYH",
+            "customer": 240788,
+            "admin_notes": "Too cheap",
+            "description": "1916-D Mercury Dime",
+            "date_added": "2022-02-22 11:18:05.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 3,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "This will complete his set.",
+            "budget": 4000,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 244974,
+            "admin_notes": "Does it need to be MS63? Will work on locating an example",
+            "description": "1896-O Morgan Dollar",
+            "date_added": "2022-02-22 11:21:46.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 4,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "",
+            "budget": 3000,
+            "status": "Approved",
+            "advisor": "JK",
+            "customer": 243228,
+            "admin_notes": "Scarce, but will work on locating an example",
+            "description": "1934-D Peace Dollar DDO",
+            "date_added": "2022-02-23 13:16:45.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 5,
+        "fields": {
+            "sold": false,
+            "grade": "MS60",
+            "notes": "",
+            "budget": 2500,
+            "status": "Denied",
+            "advisor": "JK",
+            "customer": 3943,
+            "admin_notes": "Does not exist, Franklins ran from 1948 - 1963.",
+            "description": "1934-S Franklin MS60",
+            "date_added": "2022-02-23 13:42:48.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 6,
+        "fields": {
+            "sold": false,
+            "grade": "PR69",
+            "notes": "1956 Type 2 Franklin PR69 UCAM1950 PR69 (DOES NOT EXIST?)1951-1953 Franklin PR69",
+            "budget": 100000,
+            "status": "Approved",
+            "advisor": "BSS",
+            "customer": 321816,
+            "admin_notes": "Will be adding some Franklin PF options to hendrix soon. 1950 does not exist in PF69 and 51 only has 1 example. ",
+            "description": "Franklin Proofs",
+            "date_added": "2022-02-23 14:35:23.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 7,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "He has already purchased A7832 and J6267. As mentioned, hes good with 3000 worth of coins versus the 2500 like last time.",
+            "budget": 3000,
+            "status": "Approved",
+            "advisor": "dng",
+            "customer": 249933,
+            "admin_notes": "Did we address this via email already?",
+            "description": "BU Morgan Set",
+            "date_added": "2022-02-23 14:49:20.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 8,
+        "fields": {
+            "sold": false,
+            "grade": "MS64, pref MS65",
+            "notes": "Wants PCGS AND CAC grades - also will consider 1914-D and 1911-D in MS64",
+            "budget": 3000,
+            "status": "Approved",
+            "advisor": "dng",
+            "customer": 320687,
+            "admin_notes": "Budget is likely too low for MS64/65 cac examples, but will provide several options",
+            "description": "$2.5 Indian Head Quarter Eagles: 1911, 1912, 1913, 1929 ",
+            "date_added": "2022-02-23 15:04:51.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 9,
+        "fields": {
+            "sold": false,
+            "grade": "",
+            "notes": "customer just wants a coin from the Dahl mint... passed on the 1852 Au58 for 12k too pricey wants something lower in price all options are considerable ",
+            "budget": 9000,
+            "status": "Approved",
+            "advisor": "ASO",
+            "customer": 52701,
+            "admin_notes": "$5 1852-D Liberty Head Gold Half Eagle NGC AU58 CAC added to Hendrix at $10,995",
+            "description": "Wants a Dahlonega minted coin",
+            "date_added": "2022-02-24 08:54:48.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 10,
+        "fields": {
+            "sold": false,
+            "grade": "AU",
+            "notes": "",
+            "budget": 4000,
+            "status": "Complete",
+            "advisor": "TYH",
+            "customer": 319551,
+            "admin_notes": "I believe we addressed this already. Let me know if you need more options.",
+            "description": "1893-CC Morgan Dollar",
+            "date_added": "2022-02-24 12:30:14.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 11,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "",
+            "budget": 4000,
+            "status": "Denied",
+            "advisor": "TYH",
+            "customer": 29894,
+            "admin_notes": "MS63 would cost around 9k. Throw him a ballpark and request again if he can swing it.",
+            "description": "$5 1891-CC Liberty Head Gold Half Eagle",
+            "date_added": "2022-02-24 12:33:26.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 12,
+        "fields": {
+            "sold": false,
+            "grade": "PF CAM 69 & 70",
+            "notes": "",
+            "budget": 350,
+            "status": "Approved",
+            "advisor": "MLA",
+            "customer": 146827,
+            "admin_notes": "Will look into PF69, PF68 is on TV",
+            "description": "1960 & 1961 Franklin Half Dollars",
+            "date_added": "2022-02-25 11:01:38.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 13,
+        "fields": {
+            "sold": false,
+            "grade": "PR70",
+            "notes": "Has the mint announced this coin? ",
+            "budget": 4000,
+            "status": "Denied",
+            "advisor": "BSS",
+            "customer": 261259,
+            "admin_notes": "We will have these once they release! Expected release from the mint is in May.",
+            "description": "2022 $50 1-oz Gold Buffalo NGC PR70",
+            "date_added": "2022-02-25 11:07:44.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 14,
+        "fields": {
+            "sold": false,
+            "grade": "",
+            "notes": "did not specify grade - so whatever we can find within the budgetthank you!!",
+            "budget": 15000,
+            "status": "Approved",
+            "advisor": "RC",
+            "customer": 273077,
+            "admin_notes": "will provide options",
+            "description": "$1 1889 CC",
+            "date_added": "2022-02-28 13:19:06.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 15,
+        "fields": {
+            "sold": false,
+            "grade": "ngc",
+            "notes": "Customer is open to grade, but it must be NGC graded. Any ancient roman coin will do",
+            "budget": 4000,
+            "status": "Approved",
+            "advisor": "MDO",
+            "customer": 312913,
+            "admin_notes": "Pricing provided, options also on Hendrix",
+            "description": "Roman Coins",
+            "date_added": "2022-02-28 14:46:35.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 16,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "",
+            "budget": 1500,
+            "status": "Approved",
+            "advisor": "CSE",
+            "customer": 260276,
+            "admin_notes": "Can offer at $1595",
+            "description": "1879-S Rev of 78 BU",
+            "date_added": "2022-03-01 08:51:51.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 17,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "I mentioned possible pricing of '34-S (Not yet requested) as close to $35,000 and she didn't say absolutely not. Her father still helps a Metals business at 80 years old and Patricia also helps out at the business, so I think the client has great potential.",
+            "budget": 35000,
+            "status": "Denied",
+            "advisor": "RM",
+            "customer": 312571,
+            "admin_notes": "Previously discussed, wouldn't be able to Make rolls out of these dates.",
+            "description": "Roll of 20 each of: '27-D, '28-D, '34-D, '35-S in BU Peace Dollars",
+            "date_added": "2022-03-01 10:25:40.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 18,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "",
+            "budget": 5000,
+            "status": "Denied",
+            "advisor": "JK",
+            "customer": 246213,
+            "admin_notes": "This set will cost far more than $5k in MS63. This will need to be done over time and will exceed his budget.",
+            "description": "Standing Liberty Quarter sets 1916-1930",
+            "date_added": "2022-03-01 14:36:23.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 19,
+        "fields": {
+            "sold": false,
+            "grade": "AU55-MS63",
+            "notes": "",
+            "budget": 5000,
+            "status": "Approved",
+            "advisor": "MT",
+            "customer": 280779,
+            "admin_notes": "Provided MS64 pricing",
+            "description": "$20 1889-P LIBERTY HEAD GOLD DOUBLE EAGLE",
+            "date_added": "2022-03-02 08:12:40.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 20,
+        "fields": {
+            "sold": false,
+            "grade": "AU50-MS63",
+            "notes": "",
+            "budget": 5000,
+            "status": "Approved",
+            "advisor": "MT",
+            "customer": 280779,
+            "admin_notes": "MS62 on TV locating higher  grade. Offer 99-P in MS64 to offer first",
+            "description": "$20 1889-S LIBERTY HEAD GOLD DOUBLE EAGLE",
+            "date_added": "2022-03-02 08:13:22.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 21,
+        "fields": {
+            "sold": false,
+            "grade": "MS66RD CAC",
+            "notes": "",
+            "budget": 24995,
+            "status": "Approved",
+            "advisor": "MT",
+            "customer": 322044,
+            "admin_notes": "will update if we come across another one",
+            "description": "$0.01 SVDB LINOLN PENNY ",
+            "date_added": "2022-03-02 08:15:47.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 22,
+        "fields": {
+            "sold": false,
+            "grade": "MS65",
+            "notes": "",
+            "budget": 7000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 318702,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "0.25 1932-D WASHINGTON QUARTER",
+            "date_added": "2022-03-02 08:41:50.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 23,
+        "fields": {
+            "sold": false,
+            "grade": "MS61-MS63",
+            "notes": "",
+            "budget": 20000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 232817,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "$10 OR $20 1862 GOLD EAGLE OR GOLD DOUBLE EAGLE",
+            "date_added": "2022-03-02 08:47:10.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 24,
+        "fields": {
+            "sold": false,
+            "grade": "MS60",
+            "notes": "The client called in and asked about this set of 3 and if it is still available.  ",
+            "budget": 3500,
+            "status": "Approved",
+            "advisor": "JK",
+            "customer": 291272,
+            "admin_notes": "On hendrix!\r\n\r\nJ7622 @ $3995",
+            "description": "set of 3 from TV Show---Barber Dime, Standing Liberty Quarter, and a Half Dollar",
+            "date_added": "2022-03-02 13:06:52.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 25,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "He ;loves the 8 bundle we just did, wants to complete the set with the 3 listed.",
+            "budget": 7000,
+            "status": "Approved",
+            "advisor": "SW",
+            "customer": 309670,
+            "admin_notes": "Did we price this already? Please let me know if you still need pricing and I will provide. - CJ",
+            "description": "Peace Dollars in BU 1921-P, 1922-S , 1934-S ALL IN BU Can we do a bundle price?",
+            "date_added": "2022-03-02 14:18:05.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 26,
+        "fields": {
+            "sold": false,
+            "grade": "MS 69",
+            "notes": "wants any 4 coin gold set that is cheap",
+            "budget": 5000,
+            "status": "Approved",
+            "advisor": "ASO",
+            "customer": 259170,
+            "admin_notes": "Try offering the 4 coins MS70 2022 AGE set",
+            "description": "any AGE set in ms 69",
+            "date_added": "2022-03-02 15:03:38.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 27,
+        "fields": {
+            "sold": false,
+            "grade": "XF - EF",
+            "notes": "",
+            "budget": 25000,
+            "status": "Pending",
+            "advisor": "DNG",
+            "customer": 322072,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1916-D & 1921-D Mercury Dime",
+            "date_added": "2022-03-03 08:21:47.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 28,
+        "fields": {
+            "sold": false,
+            "grade": "XF - EF",
+            "notes": "",
+            "budget": 25000,
+            "status": "Pending",
+            "advisor": "DNG",
+            "customer": 322072,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1921-D & 1938-D Walking Liberty Half Dollar",
+            "date_added": "2022-03-03 08:24:30.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 29,
+        "fields": {
+            "sold": false,
+            "grade": "XF-AU",
+            "notes": "Customer is shopping these.  Any grouping will do.",
+            "budget": 6000,
+            "status": "TV Item",
+            "advisor": "TYH",
+            "customer": 292644,
+            "admin_notes": "Sent hendrix options and TV item via email.",
+            "description": "Complete Set - $0.50 Walking Liberty Half Dollars",
+            "date_added": "2022-03-03 08:45:47.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 30,
+        "fields": {
+            "sold": false,
+            "grade": "XF-AU",
+            "notes": "Any grouping will be good as an offer",
+            "budget": 6000,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 292644,
+            "admin_notes": "Will need to build a set like this over time, provided several option via email",
+            "description": "Complete Set of $0.05 Buffalo Nickels",
+            "date_added": "2022-03-03 08:47:21.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 31,
+        "fields": {
+            "sold": false,
+            "grade": "ms70",
+            "notes": "",
+            "budget": 4000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 246131,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "$50 2015 gold buffalo",
+            "date_added": "2022-03-03 09:16:25.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 32,
+        "fields": {
+            "sold": false,
+            "grade": "MS 64",
+            "notes": "",
+            "budget": 5000,
+            "status": "Approved",
+            "advisor": "aso",
+            "customer": 3570,
+            "admin_notes": "Did we provide pricing already?",
+            "description": "1884 O in MS 64 or 65 1884 P in MS 64 or 65",
+            "date_added": "2022-03-03 15:47:45.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 33,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "Customer wanted rolls of 20 for each of these. I communicated that we aren't able to fill them and why. She asked if they could get 1 of each. I told her I would ask. In this case,  I think we should get MS63s or better such that they get really strong examples of each coin since they are just getting one instead of rolls.",
+            "budget": 10000,
+            "status": "Approved",
+            "advisor": "RM",
+            "customer": 312571,
+            "admin_notes": "I believe I provided pricing already. Let me know if anything else is needed. ",
+            "description": "1 each of the 27-D, 28-D, 34-D, 35-S Peace Dollars in MS63 or better",
+            "date_added": "2022-03-03 15:52:00.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 34,
+        "fields": {
+            "sold": false,
+            "grade": "MS65",
+            "notes": "This is the customer who bought the 1924-S, 1926-D, 1934-D MS65",
+            "budget": 20000,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 322444,
+            "admin_notes": "Will provide pricing once we have located examples",
+            "description": "1927-P, -D, -S Peace Dollars MS65",
+            "date_added": "2022-03-04 07:44:03.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 35,
+        "fields": {
+            "sold": false,
+            "grade": "AU50",
+            "notes": "Customer is just pricing this out.  ",
+            "budget": 8000,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 311245,
+            "admin_notes": "We'd sell a coin like this for around $15k. If a client just wants a quote, just email Wes and I. Let me know if he is serious and I'll locate an example.",
+            "description": "1889-CC Morgan Dollar AU50",
+            "date_added": "2022-03-04 12:13:34.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 36,
+        "fields": {
+            "sold": false,
+            "grade": "XF",
+            "notes": "Prefers Mint state will accept xf wants to pay roughly a 1000 for each coin",
+            "budget": 1000,
+            "status": "Pending",
+            "advisor": "JAO",
+            "customer": 295510,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1853-1855 Dime w/Arrows",
+            "date_added": "2022-03-04 12:23:23.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 37,
+        "fields": {
+            "sold": false,
+            "grade": "XF",
+            "notes": "Prefers Mint State will take XF would like to stay around a 1000 for each coin",
+            "budget": 1000,
+            "status": "Pending",
+            "advisor": "JAO",
+            "customer": 295510,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1866-1873 Seated Liberty Dollar",
+            "date_added": "2022-03-04 12:26:12.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 38,
+        "fields": {
+            "sold": false,
+            "grade": "AU50 or EF40",
+            "notes": "Customer just like eye appeal, and has made other big purchases with us. If we can help him out then great. If not, it might be awhile until he buys anything else from us, which is a bummer, but totally understandable if this isn't worth PACTs time. He is very insistent on these coins before buying anything else at all. If you guys have some alternatives be it higher quality or what have you that I could present him with I would also appreciate those as well.",
+            "budget": 1000,
+            "status": "Denied",
+            "advisor": "MDO",
+            "customer": 295359,
+            "admin_notes": "too cheap in these grades",
+            "description": "Lincoln cent 1913-S and 1924-D",
+            "date_added": "2022-03-04 15:31:54.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 39,
+        "fields": {
+            "sold": false,
+            "grade": "AU50",
+            "notes": "Extensive request list sent via email to Wes & Cj titled \"I'll make a request for these minors...\" budget listed is not reflective of actual customer budget. ",
+            "budget": 3500,
+            "status": "Pending",
+            "advisor": "MDO",
+            "customer": 295359,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Quarters and Dimes (Various dates & mints) ",
+            "date_added": "2022-03-07 13:54:18.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 40,
+        "fields": {
+            "sold": false,
+            "grade": "Open",
+            "notes": "He is trying to complete his collections for each coin ",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "JAO",
+            "customer": 318051,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "indian head cent 1869/69 and The 1937-D Indian Head",
+            "date_added": "2022-03-07 14:10:32.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 41,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "Customer has A5037 and C8843 and I would like to offer another set of Morgans. Not planning on calling customer for a few weeks as his mom was close to dying the last time I spoke with him.",
+            "budget": 3500,
+            "status": "Approved",
+            "advisor": "RM",
+            "customer": 255106,
+            "admin_notes": "Did Wes or I provide dates for you to offer? ",
+            "description": "Set of Morgans: Not to include coins in A5037 or C8843",
+            "date_added": "2022-03-08 10:51:54.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 42,
+        "fields": {
+            "sold": false,
+            "grade": "MS70",
+            "notes": "",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "RM",
+            "customer": 96657,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "2019 - 2022 Pandas",
+            "date_added": "2022-03-08 11:41:36.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 43,
+        "fields": {
+            "sold": false,
+            "grade": "MS70",
+            "notes": "",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "RM",
+            "customer": 96657,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "2019 - 2022 Pandas",
+            "date_added": "2022-03-08 11:42:36.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 44,
+        "fields": {
+            "sold": false,
+            "grade": "VF20",
+            "notes": "Third time may be the charm with this.  ",
+            "budget": 11000,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 217391,
+            "admin_notes": "If I remember correctly he passed? Let me know",
+            "description": "1893-S Morgan VF",
+            "date_added": "2022-03-08 11:53:46.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 45,
+        "fields": {
+            "sold": false,
+            "grade": "varied grades",
+            "notes": "",
+            "budget": 15000,
+            "status": "Approved",
+            "advisor": "aso",
+            "customer": 324588,
+            "admin_notes": "Did we provide pricing already? Is this still needed?",
+            "description": "needs 1901-O 94-P 93-S 89-CC 85-CC",
+            "date_added": "2022-03-08 12:33:50.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 46,
+        "fields": {
+            "sold": false,
+            "grade": "VF",
+            "notes": "Doesnt want to pay thousands upon thousand for each coin. Needs both to complete his sets. Trust Rick loves Rick",
+            "budget": 3000,
+            "status": "Pending",
+            "advisor": "JAO",
+            "customer": 131053,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "2021D Morgan Silver Dollar with the Black and Yellow label and the 1921D Mercury Dime",
+            "date_added": "2022-03-08 14:08:30.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 47,
+        "fields": {
+            "sold": false,
+            "grade": "OPEN",
+            "notes": "Unsure if this is worth our time, customer may buy in bulk on these two. Budget is not reflective of customer's actual budget, he just said ",
+            "budget": 1000,
+            "status": "Denied",
+            "advisor": "MDO",
+            "customer": 313317,
+            "admin_notes": "Foreign Bullion is not in our typical wheelhouse",
+            "description": "South African Silver Kruggerand and Australian Wedged-tailed Silver Eagle",
+            "date_added": "2022-03-08 15:22:39.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 48,
+        "fields": {
+            "sold": false,
+            "grade": "MS65",
+            "notes": "I doubt this is something we would look for.  ",
+            "budget": 500,
+            "status": "Denied",
+            "advisor": "TYH",
+            "customer": 3673,
+            "admin_notes": "Your intuition was correct... not something we'd look for. ",
+            "description": "2004-D Wisconsin State Quarter HR extra leaf MS65+",
+            "date_added": "2022-03-08 15:40:25.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 49,
+        "fields": {
+            "sold": false,
+            "grade": "VF",
+            "notes": "",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "RM",
+            "customer": 318044,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1909-S VDB Lincoln Cent",
+            "date_added": "2022-03-08 16:43:04.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 50,
+        "fields": {
+            "sold": false,
+            "grade": "None specified",
+            "notes": "",
+            "budget": 5000,
+            "status": "Approved",
+            "advisor": "ABA",
+            "customer": 134908,
+            "admin_notes": "Offer $5 1909-D MS63 at $1995",
+            "description": "$5 Indian GOLD from Dahlonega or Charlotte, also any gold from Dahlonega or Charlotte",
+            "date_added": "2022-03-08 16:52:29.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 51,
+        "fields": {
+            "sold": false,
+            "grade": "ms70",
+            "notes": "Test",
+            "budget": 100000,
+            "status": "Pending",
+            "advisor": "jp",
+            "customer": 1234,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "test",
+            "date_added": "2022-03-09 09:04:17.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 52,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "",
+            "budget": 2500,
+            "status": "Approved",
+            "advisor": "MBE",
+            "customer": 323153,
+            "admin_notes": "Can offer at $1295",
+            "description": "1881 Morgan CC GSA",
+            "date_added": "2022-03-09 16:59:54.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 53,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "",
+            "budget": 2500,
+            "status": "Approved",
+            "advisor": "MBE",
+            "customer": 323153,
+            "admin_notes": "Can offer at $1295",
+            "description": "1885 Morgan CC GSA",
+            "date_added": "2022-03-09 17:00:45.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 54,
+        "fields": {
+            "sold": false,
+            "grade": "PF67",
+            "notes": "Wants 2 for his sons; each coin would complete a set of Roosevelt Dimes. He's been shopping with us since 2015. Budget is per coin ",
+            "budget": 6500,
+            "status": "Denied",
+            "advisor": "ANZ",
+            "customer": 53984,
+            "admin_notes": "Request is below minimum ask of $1k.",
+            "description": "1954 Roosevelt Dime NGC PF67 Brown Label",
+            "date_added": "2022-03-10 10:16:45.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 55,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "may go higher, he called in about the one listed in the RCTV email - the only St he needs ",
+            "budget": 5000,
+            "status": "Approved",
+            "advisor": "MBE",
+            "customer": 252704,
+            "admin_notes": "Locating example",
+            "description": "1912-P Saint Gaudens Gold Double Eagle",
+            "date_added": "2022-03-10 13:06:01.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 56,
+        "fields": {
+            "sold": false,
+            "grade": "MS62+",
+            "notes": "will buy today f you can get one, this or higher grade !",
+            "budget": 18000,
+            "status": "Approved",
+            "advisor": "MBE",
+            "customer": 293635,
+            "admin_notes": "Locating example",
+            "description": "$3 1861 NGC ",
+            "date_added": "2022-03-10 13:08:03.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 57,
+        "fields": {
+            "sold": false,
+            "grade": "open",
+            "notes": "Customer has been on the hunt for one of these double dies for sometime now, said if we find a reasonably priced one he will ",
+            "budget": 2000,
+            "status": "Approved",
+            "advisor": "MDO",
+            "customer": 309279,
+            "admin_notes": "Will likely come in a bit over 2000, but we can present an AU50 or XF BN example once one is located",
+            "description": "1955 Double Die obverse Lincoln Cent",
+            "date_added": "2022-03-10 14:22:02.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 58,
+        "fields": {
+            "sold": false,
+            "grade": "61-63",
+            "notes": "",
+            "budget": 3000,
+            "status": "Approved",
+            "advisor": "ASO",
+            "customer": 75385,
+            "admin_notes": "Can offer 1934-S BU and MS63 pricing, 1856 flying eagle is expensive even in low grades",
+            "description": "1934-S Peace dollar in MS 61-63    1856 Flying eagle  ",
+            "date_added": "2022-03-11 08:39:29.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 59,
+        "fields": {
+            "sold": false,
+            "grade": "PR70",
+            "notes": "",
+            "budget": 500,
+            "status": "Approved",
+            "advisor": "BSS",
+            "customer": 315137,
+            "admin_notes": "Can offer PF70UCAM RM Label at $250.",
+            "description": "2011-P ASE Proof",
+            "date_added": "2022-03-11 12:13:32.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 60,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "",
+            "budget": 3000,
+            "status": "Pending",
+            "advisor": "JK",
+            "customer": 284789,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1952 Franklin half dollar",
+            "date_added": "2022-03-14 11:01:14.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 61,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "",
+            "budget": 4000,
+            "status": "Pending",
+            "advisor": "MLA",
+            "customer": 324118,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "50 Gold Buffalo",
+            "date_added": "2022-03-14 11:34:52.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 62,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "",
+            "budget": 4000,
+            "status": "Pending",
+            "advisor": "MLA",
+            "customer": 324118,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "2019 $50 Gold Buffalo",
+            "date_added": "2022-03-14 12:03:04.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 63,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "budget is a suggestion, find what you can and let me know",
+            "budget": 8500,
+            "status": "Approved",
+            "advisor": "MBE",
+            "customer": 299764,
+            "admin_notes": "Locating example",
+            "description": "1934-D Double Die Peace Dollar",
+            "date_added": "2022-03-14 12:42:07.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 64,
+        "fields": {
+            "sold": false,
+            "grade": "PF 65-68",
+            "notes": "",
+            "budget": 2500,
+            "status": "Approved",
+            "advisor": "ASO",
+            "customer": 17174,
+            "admin_notes": "Lower grades are on TV, will provide PF67/68 pricing",
+            "description": "1951 PF Franklin in 65-68",
+            "date_added": "2022-03-14 14:22:00.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 65,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "Customer already has 78CC, 80CC, and 82CC-84CC all in BU, would like to stay consistent.  ",
+            "budget": 2250,
+            "status": "TV Item",
+            "advisor": "MTR",
+            "customer": 287846,
+            "admin_notes": "Can offer C9802, runs on TV",
+            "description": "set of 2: 1881CC & 1885CC GSA Morgan Dollar",
+            "date_added": "2022-03-14 14:24:16.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 66,
+        "fields": {
+            "sold": false,
+            "grade": "MS69",
+            "notes": "This customer is to buy all three coins at one time",
+            "budget": 2000,
+            "status": "Denied",
+            "advisor": "LP",
+            "customer": 273271,
+            "admin_notes": "MS69 1/10th oz coins are relatively cheap. Not a great PACT request.",
+            "description": "5dollar 1/10 of an ounce AGE Years 1992, 1995, 1997",
+            "date_added": "2022-03-14 15:12:12.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 67,
+        "fields": {
+            "sold": false,
+            "grade": "PF68",
+            "notes": "looking to complete his Franklins in PF68, pricing is an approximate per coin",
+            "budget": 2500,
+            "status": "Denied",
+            "advisor": "MBE",
+            "customer": 192187,
+            "admin_notes": "1950 in PF68 last sold for almost $40k, 51 sold for close to 11k, 53 may be doable. Would suggest PF67 based on budget",
+            "description": "1950/51/53 Franklin Half Dollar",
+            "date_added": "2022-03-14 16:26:09.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 68,
+        "fields": {
+            "sold": false,
+            "grade": "PF69 UCAM",
+            "notes": "He just ordered the set of 5 1971-1976 PF69 UCAM and was asking about the ones struck in 1975 and comparing.",
+            "budget": 500,
+            "status": "Denied",
+            "advisor": "TYH",
+            "customer": 16812,
+            "admin_notes": "No Ikes to my knowledge struck in 1975. Only 1976 type 1 and 2. This is to cheap to be a PACT request",
+            "description": "1776-1976 - $0.50 Eisenhower Half Dollar (Variety 1 1975)",
+            "date_added": "2022-03-14 16:44:04.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 69,
+        "fields": {
+            "sold": false,
+            "grade": "MS70 or PF 70",
+            "notes": "also wants to know how much the 1986 Gold Eagle in PF and MS ",
+            "budget": 9000,
+            "status": "Approved",
+            "advisor": "ASO",
+            "customer": 323188,
+            "admin_notes": "Pricing Provided. Both available on hendrix.",
+            "description": "interested in 2008 Gold Buffalo set in MS or PF",
+            "date_added": "2022-03-15 08:05:28.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 70,
+        "fields": {
+            "sold": false,
+            "grade": "MS66",
+            "notes": "He seen the 1951 on our show and balked at the price. Will purchase all 3 coins if we can find tind the in MS66 prefers MS67 and keep it under 3k. He did mention he'll go up to $1100 per coin if need to.",
+            "budget": 3300,
+            "status": "Pending",
+            "advisor": "JAO",
+            "customer": 193624,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1948 1949 1951 .50 Franklin Half Dollar ",
+            "date_added": "2022-03-15 11:51:23.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 71,
+        "fields": {
+            "sold": false,
+            "grade": "Any",
+            "notes": "This is legitimately the final coin this customer is missing. He has full sets of Morgan, AMSE, Etc. But says it would be absolutely his life's dream to leave his young grandson his  complete cent set that he worked his whole life on, and this is the only thing he is missing. He is aware that at this budget he won't get the best graded coin, this is more about completing the set for him in anyway possible that doesn't break the bank. ",
+            "budget": 6000,
+            "status": "Denied",
+            "advisor": "MDO",
+            "customer": 303724,
+            "admin_notes": "I believe we discussed this via email but this is likely to be well outside his budget even in low grades.",
+            "description": "1956 Flying Eagle Cent ",
+            "date_added": "2022-03-15 12:43:49.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 72,
+        "fields": {
+            "sold": false,
+            "grade": "PF69",
+            "notes": "Need a 1952 PF 69 specifically. Client has PF67 and PF68",
+            "budget": 5000,
+            "status": "Denied",
+            "advisor": "BSS",
+            "customer": 321816,
+            "admin_notes": "Only 13 examples graded in a PF69 with no sale records. Could take a long time to show up and will likely be well over his budget",
+            "description": "1952 Franklin Half Dollar NGC PF67+ We The People (in stock)",
+            "date_added": "2022-03-15 15:29:14.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 73,
+        "fields": {
+            "sold": false,
+            "grade": "MS70 PF70",
+            "notes": "",
+            "budget": 1000,
+            "status": "Approved",
+            "advisor": "CSE",
+            "customer": 3572,
+            "admin_notes": "Emailed pricing of PR70. ",
+            "description": "1997-W Jackie Robinson $5 Gold Commemorative Coin ",
+            "date_added": "2022-03-15 16:16:16.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 74,
+        "fields": {
+            "sold": false,
+            "grade": "MS70 ",
+            "notes": "",
+            "budget": 3000,
+            "status": "Pending",
+            "advisor": "CLH",
+            "customer": 230541,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "American Silver Eagles Burnished 2017-2020",
+            "date_added": "2022-03-15 17:12:03.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 75,
+        "fields": {
+            "sold": false,
+            "grade": "PF70 ",
+            "notes": "",
+            "budget": 1500,
+            "status": "Complete",
+            "advisor": "CLH",
+            "customer": 194080,
+            "admin_notes": "Pricing provided",
+            "description": "American Silver Eagle Reagan Mercanti ",
+            "date_added": "2022-03-15 17:14:18.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 76,
+        "fields": {
+            "sold": false,
+            "grade": "MS70",
+            "notes": "has all the others, looking to complete the set - more interested in the Morgan D, but will consider the Peace in a 'set'",
+            "budget": 450,
+            "status": "Denied",
+            "advisor": "MBE",
+            "customer": 147748,
+            "admin_notes": "Can't sell separately",
+            "description": "2021-D Morgan and Peace Silver Dollar",
+            "date_added": "2022-03-17 13:44:42.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 77,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "Adding to their set they bought on the show.  1800-S - 1898-O BU",
+            "budget": 500,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 324779,
+            "admin_notes": "They want MS63 or BU's to add to the show set they bought?",
+            "description": "1880-O, -P, & 1886-S",
+            "date_added": "2022-03-18 09:52:22.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 78,
+        "fields": {
+            "sold": false,
+            "grade": "MS60-63",
+            "notes": "Customer wants to buy 12 Walking Lib. Half Dollars, no specific years, for about $100 a coin.  Adding to his 2 sets of 2021 Morgans",
+            "budget": 1200,
+            "status": "Pending",
+            "advisor": "TYH",
+            "customer": 319472,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Walking Lib. Half Dollars",
+            "date_added": "2022-03-18 11:18:35.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 79,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "He REALLY wants these coins and put another order on hold to prioritize these. Small potatoes, but good start with this guy.",
+            "budget": 1800,
+            "status": "Approved",
+            "advisor": "DNG",
+            "customer": 311130,
+            "admin_notes": "Emailed pricing",
+            "description": "1891-CC Spitting Eagle and 1899-O ",
+            "date_added": "2022-03-18 11:54:26.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 80,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "he's trying to complete his CC's in MS63 { I know the 1889 won't come in at that price, just ballparking a price for each of the others...}",
+            "budget": 2500,
+            "status": "Approved",
+            "advisor": "MBE",
+            "customer": 290419,
+            "admin_notes": "Will proved per coin pricing via email.",
+            "description": "Morgan Silver Dollars, 1879, and 89/90/91/92/93-CC GSA's",
+            "date_added": "2022-03-21 13:46:40.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 81,
+        "fields": {
+            "sold": false,
+            "grade": "F12",
+            "notes": "This coin has sentimental value as he was a child during WWII and was collecting these coins back then. He needs this one",
+            "budget": 1600,
+            "status": "Pending",
+            "advisor": "JAO",
+            "customer": 320091,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1797 Half Cent 1 Above 1 Plain Edge ",
+            "date_added": "2022-03-22 07:55:49.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 82,
+        "fields": {
+            "sold": false,
+            "grade": "PF 69",
+            "notes": "",
+            "budget": 3000,
+            "status": "Approved",
+            "advisor": "ASO",
+            "customer": 217051,
+            "admin_notes": "Requested T1 from vendor, will provide pricing",
+            "description": "1956 Franklin Pf 69",
+            "date_added": "2022-03-22 09:17:45.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 83,
+        "fields": {
+            "sold": false,
+            "grade": "MS60",
+            "notes": "",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "TYH",
+            "customer": 292314,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1881-CC, 1885-CC, 1891-CC Morgan grouping",
+            "date_added": "2022-03-22 14:21:59.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 84,
+        "fields": {
+            "sold": false,
+            "grade": "AU50",
+            "notes": "",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "TYH",
+            "customer": 244974,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1905-P, 1905-O Barber Half Dollar",
+            "date_added": "2022-03-23 09:32:27.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 85,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "",
+            "budget": 2000,
+            "status": "Approved",
+            "advisor": "JK",
+            "customer": 300321,
+            "admin_notes": "Emailed Pricing",
+            "description": "1890-O Morgan Dollar and the 1888-S Morgan",
+            "date_added": "2022-03-23 10:35:44.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 86,
+        "fields": {
+            "sold": false,
+            "grade": "ms70",
+            "notes": "",
+            "budget": 4000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 246131,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "2015 50 gold buffalo",
+            "date_added": "2022-03-23 14:51:32.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 87,
+        "fields": {
+            "sold": false,
+            "grade": "MS66 ",
+            "notes": "",
+            "budget": 15000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 146503,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1 1878 CC GSA",
+            "date_added": "2022-03-23 15:03:53.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 88,
+        "fields": {
+            "sold": false,
+            "grade": "PF69",
+            "notes": "",
+            "budget": 4000,
+            "status": "Approved",
+            "advisor": "bss",
+            "customer": 169973,
+            "admin_notes": "PF70 is $26k, PF69 is $5K",
+            "description": "1995-W American Silver Eagle Proof NGC PF70",
+            "date_added": "2022-03-24 10:57:58.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 89,
+        "fields": {
+            "sold": false,
+            "grade": "PF70",
+            "notes": "",
+            "budget": 400,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 323291,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1 2001 AMERICAN SILVER EAGLE UCAM",
+            "date_added": "2022-03-24 11:19:04.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 90,
+        "fields": {
+            "sold": false,
+            "grade": "PF70",
+            "notes": "",
+            "budget": 400,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 323291,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1 2021 AMERICAN SILVER EAGLE UCAM",
+            "date_added": "2022-03-24 11:19:38.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 91,
+        "fields": {
+            "sold": false,
+            "grade": "PF70",
+            "notes": "ALL NGC FOR THIS CUSTOMER IF POSSIBLE PLEASE-THX",
+            "budget": 400,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 323291,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1 2016 AMERICAN SILVER EAGLE UCAM",
+            "date_added": "2022-03-24 11:20:41.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 92,
+        "fields": {
+            "sold": false,
+            "grade": "MS66 ",
+            "notes": "",
+            "budget": 15000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 146503,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1 1880 CC GSA",
+            "date_added": "2022-03-28 09:41:10.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 93,
+        "fields": {
+            "sold": false,
+            "grade": "MS66 ",
+            "notes": "Please disregard previous request for this coin for this customer as i entered it incorrectly-thx mike",
+            "budget": 15000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 146503,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1 1880 CC GSA REV-78 MORGAN",
+            "date_added": "2022-03-28 09:53:26.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 94,
+        "fields": {
+            "sold": false,
+            "grade": "63",
+            "notes": "",
+            "budget": 10000,
+            "status": "Pending",
+            "advisor": "SW",
+            "customer": 317313,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Morgan dates 1893 O, 1897 O and 1903 S MS 64",
+            "date_added": "2022-03-28 14:09:35.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 95,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "looking to finish his Morgan CC GSA's from BU to MS64 depending on cost per coin",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "MBE",
+            "customer": 323153,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Morgan Silver Dollars, 1879, and 89/90/91/92/93-CC GSA's",
+            "date_added": "2022-03-29 11:28:37.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 96,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "CLIENT IS HOT FOR THIS COIN-LET ME KNOW? THX",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 315681,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "0.25 1932-S",
+            "date_added": "2022-03-30 08:34:19.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 97,
+        "fields": {
+            "sold": false,
+            "grade": "MS65",
+            "notes": "",
+            "budget": 15000,
+            "status": "Pending",
+            "advisor": "LP",
+            "customer": 134070,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1902 1904 1905 1906 1907 P LIberty Head Double Eagles",
+            "date_added": "2022-03-30 10:40:50.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 98,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "Would consider thee 04-S in a lower grade to keep price down.  Did not seem confident he would go as hi as $5000 so lower options closer to $3000 would be welcome too.",
+            "budget": 5000,
+            "status": "Approved",
+            "advisor": "MTR",
+            "customer": 278179,
+            "admin_notes": "Emailed Pricing\r\n",
+            "description": "Set of 3: 1904 Morgan P, O, and S",
+            "date_added": "2022-03-30 11:09:00.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 99,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "will consider lower grades, but trying to keep them in 63 if and where possible",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "MBE",
+            "customer": 290419,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Morgan CC GSA's - 1879 and 1889 thru 93",
+            "date_added": "2022-03-30 12:43:38.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 100,
+        "fields": {
+            "sold": false,
+            "grade": "MS70",
+            "notes": "Bought the Peace Dollars off show and wants to add these.  ",
+            "budget": 2000,
+            "status": "TV Item",
+            "advisor": "TYH",
+            "customer": 324213,
+            "admin_notes": "You can sell the individual TV items. The D will not be available. We cannot break up our sets. Reach out if you would like the item numbers.",
+            "description": "2021 Morgan Set of 5 CC, O, P, D, S",
+            "date_added": "2022-03-30 13:17:24.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 101,
+        "fields": {
+            "sold": false,
+            "grade": "EF40",
+            "notes": "Looking for any Civil War date coins within his budget",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "ty",
+            "customer": 324213,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1861 - 1865 Seated Liberty",
+            "date_added": "2022-03-30 13:21:21.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 102,
+        "fields": {
+            "sold": false,
+            "grade": "PF 70",
+            "notes": "",
+            "budget": 5000,
+            "status": "Partially Approved",
+            "advisor": "ASO",
+            "customer": 236284,
+            "admin_notes": "Can offer the 2018-S @ $349, the 2019'S we can do but not in Reagan Mercanti",
+            "description": "2018 S  PF 70 Mercanti signed ASE and 2019 6 coin set of ASE's PF 70 mercanti label",
+            "date_added": "2022-03-30 14:21:43.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 103,
+        "fields": {
+            "sold": false,
+            "grade": "VF",
+            "notes": "",
+            "budget": 5000,
+            "status": "Denied",
+            "advisor": "TYH",
+            "customer": 321862,
+            "admin_notes": "Assuming you are referring to Peace Dollars here? Not something we would do in VF.",
+            "description": "1921, 1924-S, 1927-P,-S / 1928-P,-S / 1934-P, -S, -D, 1935-P",
+            "date_added": "2022-03-30 15:33:02.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 104,
+        "fields": {
+            "sold": false,
+            "grade": "MS61/62",
+            "notes": "",
+            "budget": 1200,
+            "status": "Pending",
+            "advisor": "MBE",
+            "customer": 97327,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Morgan CC - 1892 & 93",
+            "date_added": "2022-03-30 16:42:56.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 105,
+        "fields": {
+            "sold": false,
+            "grade": "PF 70",
+            "notes": "",
+            "budget": 6000,
+            "status": "Pending",
+            "advisor": "ASO",
+            "customer": 317918,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "looking for 1987 - 2000 PF ASE ",
+            "date_added": "2022-03-31 09:15:40.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 106,
+        "fields": {
+            "sold": false,
+            "grade": "MS60",
+            "notes": "",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "JK",
+            "customer": 279641,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1931 St. Gaudens Gold Double Eagle.",
+            "date_added": "2022-03-31 09:16:36.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 107,
+        "fields": {
+            "sold": false,
+            "grade": "MS60",
+            "notes": "",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "JK",
+            "customer": 279641,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1931 St. Gaudens Gold Double Eagle.",
+            "date_added": "2022-03-31 09:43:31.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 108,
+        "fields": {
+            "sold": false,
+            "grade": "PF 70",
+            "notes": "",
+            "budget": 7500,
+            "status": "Approved",
+            "advisor": "aso",
+            "customer": 132826,
+            "admin_notes": "Can offer brown label set @ $9000",
+            "description": "need 1986-2000 PF 70 ASE ",
+            "date_added": "2022-03-31 10:44:07.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 109,
+        "fields": {
+            "sold": false,
+            "grade": "Au-50-55",
+            "notes": "",
+            "budget": 8000,
+            "status": "Denied",
+            "advisor": "ASO",
+            "customer": 239465,
+            "admin_notes": "Each of these dates are very scarce in AU (not many graded) we can look at MS examples but they will exceed budget",
+            "description": "Saints : 1924 D S ... 1925 D 1926 DS AU 50-55",
+            "date_added": "2022-03-31 11:36:29.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 110,
+        "fields": {
+            "sold": false,
+            "grade": "MS65",
+            "notes": "",
+            "budget": 20000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 274067,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "20 saint gaudens gold double eagle",
+            "date_added": "2022-03-31 12:20:08.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 111,
+        "fields": {
+            "sold": false,
+            "grade": "PF70",
+            "notes": "Looking to acquire about a dozen of this coin",
+            "budget": 1000,
+            "status": "Approved",
+            "advisor": "MBE",
+            "customer": 288218,
+            "admin_notes": "Provided via email",
+            "description": "2016-W ASE",
+            "date_added": "2022-03-31 13:07:22.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 112,
+        "fields": {
+            "sold": false,
+            "grade": "any",
+            "notes": "",
+            "budget": 6000,
+            "status": "Approved",
+            "advisor": "ASO",
+            "customer": 191825,
+            "admin_notes": "Will look for examples to present, budget fits F - VF examples",
+            "description": "1916 D Mercury DIME",
+            "date_added": "2022-04-01 13:44:14.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 113,
+        "fields": {
+            "sold": false,
+            "grade": "MS 70",
+            "notes": "customer wants the 2021 morgan PDS only he has already 4 peace dollars and bought 2 of the CC and O morgans with us",
+            "budget": 1450,
+            "status": "Denied",
+            "advisor": "ASO",
+            "customer": 320836,
+            "admin_notes": "We cannot sell these coins individually right now. \r\n\r\n",
+            "description": "2021 PDS morgan MS 70 FDI",
+            "date_added": "2022-04-01 14:29:07.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 114,
+        "fields": {
+            "sold": false,
+            "grade": "MS65",
+            "notes": "",
+            "budget": 30000,
+            "status": "Pending",
+            "advisor": "MAS",
+            "customer": 216930,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1856 FLYING EAGLE SMALL  INDIAN CENT",
+            "date_added": "2022-04-04 11:45:09.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 115,
+        "fields": {
+            "sold": false,
+            "grade": "PF 70",
+            "notes": "",
+            "budget": 8000,
+            "status": "Pending",
+            "advisor": "ASO",
+            "customer": 321960,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Needs 1986-1992 S ASE in PF 70 UCAM ",
+            "date_added": "2022-04-04 12:17:18.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 116,
+        "fields": {
+            "sold": false,
+            "grade": "Ungraded",
+            "notes": "These are the last two years that he needs to hvae a complete Year Set of Mint State coins. It is NECESSARY that he gets them in the original government sealed packaging",
+            "budget": 4000,
+            "status": "Pending",
+            "advisor": "RM",
+            "customer": 130519,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1952 & 1953 Mint Year Set in OGP",
+            "date_added": "2022-04-04 12:43:46.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 117,
+        "fields": {
+            "sold": false,
+            "grade": "AU50",
+            "notes": "AU50 or AU55 was suggested along with the $3-4K range for the 1894-O that was presented at the $9,995 price when I spoke to Fred. This is probably where he would like to be on all these coins, except he may be able to go a little higher for the 1892-S.",
+            "budget": 4000,
+            "status": "Pending",
+            "advisor": "RM",
+            "customer": 130519,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1892-S, 1893-O, 1894-O, & 1904-O Morgan Dollars",
+            "date_added": "2022-04-04 12:52:17.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 118,
+        "fields": {
+            "sold": false,
+            "grade": "MS 62-64",
+            "notes": "",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "ASO",
+            "customer": 17195,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1894 P Morgan ",
+            "date_added": "2022-04-05 08:43:07.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 119,
+        "fields": {
+            "sold": false,
+            "grade": "proof69",
+            "notes": "",
+            "budget": 1500,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 5699,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "6 coin territory silver coin set",
+            "date_added": "2022-04-05 09:21:01.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 120,
+        "fields": {
+            "sold": false,
+            "grade": "MS69",
+            "notes": "",
+            "budget": 1000,
+            "status": "Denied",
+            "advisor": "BSS",
+            "customer": 311922,
+            "admin_notes": "We do not offer these coins in MS69. We sell ungraded OGP coins on TV. If you would like to offer these for no credit and build rapport, let me know and I will provide item numbers",
+            "description": "2021 Morgan CC P",
+            "date_added": "2022-04-05 11:59:04.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 121,
+        "fields": {
+            "sold": false,
+            "grade": "ms63-",
+            "notes": "ms64",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "MT",
+            "customer": 232230,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1934 peace dollar",
+            "date_added": "2022-04-06 07:32:08.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 122,
+        "fields": {
+            "sold": false,
+            "grade": "MS64",
+            "notes": "Customer wants to split this set.  First payment now of $1495 and wants the coins that coincide for that payment amount to be shipped.  Will pay the remaining $2000 next month, May to get the rest of the coins shipped.  CJ: stated that we need to create 2 different \"J\"#'s.  ",
+            "budget": 3495,
+            "status": "Pending",
+            "advisor": "TYH",
+            "customer": 319472,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "J4434: Set of 20: 1941-1947 P, D, S Walking Liberty Half Dollar Short Set NGC/PCGS MS64",
+            "date_added": "2022-04-06 09:53:43.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 123,
+        "fields": {
+            "sold": false,
+            "grade": "PF70",
+            "notes": "",
+            "budget": 3000,
+            "status": "Pending",
+            "advisor": "SW",
+            "customer": 326064,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "2016-2021 type 1 & 2 American Silver Eagles PCGS only PF70 only",
+            "date_added": "2022-04-06 10:08:12.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 124,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "willing to spend more for a great coin {89-CC, for example} - but mainly looking for the listed years in 63 or 64",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "MBE",
+            "customer": 271750,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Morgan CC - 89/90/91/92/93",
+            "date_added": "2022-04-06 12:08:30.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 125,
+        "fields": {
+            "sold": false,
+            "grade": "xf 40 - 45",
+            "notes": "",
+            "budget": 10000,
+            "status": "Pending",
+            "advisor": "ASO",
+            "customer": 170304,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "wants a kellog in xf 40",
+            "date_added": "2022-04-06 13:11:06.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 126,
+        "fields": {
+            "sold": false,
+            "grade": "MS -60-62",
+            "notes": "",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "ASO",
+            "customer": 246794,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1914 D RD lincoln penny MS 60 - 62",
+            "date_added": "2022-04-06 14:58:49.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 127,
+        "fields": {
+            "sold": false,
+            "grade": "AU 50",
+            "notes": "",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "ASO",
+            "customer": 246794,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1904-S Morgan AU 50",
+            "date_added": "2022-04-06 15:05:58.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 128,
+        "fields": {
+            "sold": false,
+            "grade": "MS64",
+            "notes": "No specific dates needed, only that they are in the 20th Century",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "TYH",
+            "customer": 319252,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "20th Century Barber Half Dollars",
+            "date_added": "2022-04-06 15:59:22.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 129,
+        "fields": {
+            "sold": false,
+            "grade": "MS60",
+            "notes": "non-GSA, price is flexible, as is grade, will take AU thru MS depending on price and coin",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "MBE",
+            "customer": 193288,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Morgan Silver Dollars CC - 85/89/92 and 93",
+            "date_added": "2022-04-06 16:01:05.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 130,
+        "fields": {
+            "sold": false,
+            "grade": "Pf 65-70",
+            "notes": "",
+            "budget": 1000,
+            "status": "Denied",
+            "advisor": "ASO",
+            "customer": 320338,
+            "admin_notes": "too cheap for PACT",
+            "description": "1998 - S kennedy mat finish",
+            "date_added": "2022-04-07 08:02:32.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 131,
+        "fields": {
+            "sold": false,
+            "grade": "70",
+            "notes": "Customer just purchased NGC PF70 Everest Set - J7426.  Wants a 2009 to complete the year set.  Wasn't sure what to put into the budget, but expecting only a couple hundred dollars. Would be best if we could match grading service of the PF70 set.",
+            "budget": 200,
+            "status": "Approved",
+            "advisor": "MTR",
+            "customer": 326905,
+            "admin_notes": "Can offer at $215",
+            "description": "2009 $1 American Silver Eagle NGC MS70",
+            "date_added": "2022-04-07 09:39:01.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 132,
+        "fields": {
+            "sold": false,
+            "grade": "MS64",
+            "notes": "",
+            "budget": 2500,
+            "status": "Approved",
+            "advisor": "SW",
+            "customer": 297193,
+            "admin_notes": "MS64 on TV, can offer MS65 at $4995",
+            "description": "1932 $10 Indian Head Gold",
+            "date_added": "2022-04-07 12:17:06.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 133,
+        "fields": {
+            "sold": false,
+            "grade": "any",
+            "notes": "",
+            "budget": 3000,
+            "status": "Approved",
+            "advisor": "DNG",
+            "customer": 304427,
+            "admin_notes": "Will work on locating several options",
+            "description": "Civil War Dates (minors)",
+            "date_added": "2022-04-07 16:41:23.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 134,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "This was originally request #250.  I am upping the grading.  Customer asked specifically for these dates and is pricing out.  ",
+            "budget": 2000,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 321862,
+            "admin_notes": "Emailing pricing",
+            "description": "Peace Dollar:  1921-P, 1924-S, 1927-D,-S, 1928-P,-S, 1934-P,-D,-S, 1935-P",
+            "date_added": "2022-04-08 10:48:36.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 135,
+        "fields": {
+            "sold": false,
+            "grade": "pf67",
+            "notes": "",
+            "budget": 1000,
+            "status": "Approved",
+            "advisor": "ABA",
+            "customer": 97044,
+            "admin_notes": "PF67 @ $479\r\n\r\nPF68 @ $1395",
+            "description": "1954 Franklin pf67 or pf68",
+            "date_added": "2022-04-08 14:29:59.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 136,
+        "fields": {
+            "sold": false,
+            "grade": "1-8",
+            "notes": "",
+            "budget": 3500,
+            "status": "Approved",
+            "advisor": "ASO",
+            "customer": 326310,
+            "admin_notes": "Will work on locating example",
+            "description": "1893 - S VG 8 or less",
+            "date_added": "2022-04-11 09:48:36.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 137,
+        "fields": {
+            "sold": false,
+            "grade": "MS70",
+            "notes": "Super specific coin. Last one needed for an MS70 set.",
+            "budget": 1000,
+            "status": "Denied",
+            "advisor": "BSS",
+            "customer": 282386,
+            "admin_notes": "Too inexpensive for a PACT request",
+            "description": "2001-W American Silver Eagle MS70",
+            "date_added": "2022-04-11 14:30:42.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 138,
+        "fields": {
+            "sold": false,
+            "grade": "MS64",
+            "notes": "",
+            "budget": 5000,
+            "status": "Partially Approved",
+            "advisor": "SW",
+            "customer": 253627,
+            "admin_notes": "$1 1883-CC MS64 can be offered for $750\r\n\r\nA $1 1889-CC MS64 is a six figure coin. Likely looking at a VF30 in the $5k range.",
+            "description": "1883 and 1889- CC Morgans",
+            "date_added": "2022-04-11 15:45:49.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 139,
+        "fields": {
+            "sold": false,
+            "grade": "MS65",
+            "notes": "Needs all 3 to complete set has budget of $4500 for all 3 ",
+            "budget": 4500,
+            "status": "Approved",
+            "advisor": "JAO",
+            "customer": 317407,
+            "admin_notes": "MS65 is going to be out of budget, emailed MS63 pricing",
+            "description": "1878CC 1879CC 1880CC  ",
+            "date_added": "2022-04-12 10:36:13.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 140,
+        "fields": {
+            "sold": false,
+            "grade": "MS66-66",
+            "notes": "",
+            "budget": 10000,
+            "status": "Approved",
+            "advisor": "SW",
+            "customer": 277461,
+            "admin_notes": "Will send pricing once an example is located",
+            "description": "1899-P Morgan",
+            "date_added": "2022-04-12 14:28:14.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 141,
+        "fields": {
+            "sold": false,
+            "grade": "GP",
+            "notes": "",
+            "budget": 8995,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 316474,
+            "admin_notes": "Can offer at  $8995",
+            "description": "1855 Kellogg Restrike SSCA",
+            "date_added": "2022-04-13 07:40:43.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 142,
+        "fields": {
+            "sold": false,
+            "grade": "MS60",
+            "notes": "",
+            "budget": 1000,
+            "status": "Approved",
+            "advisor": "ASO",
+            "customer": 316360,
+            "admin_notes": "emailing pricing",
+            "description": "any standing liberty quarter in MS 60",
+            "date_added": "2022-04-13 09:54:43.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 143,
+        "fields": {
+            "sold": false,
+            "grade": "MS",
+            "notes": "",
+            "budget": 3500,
+            "status": "Approved",
+            "advisor": "JK",
+            "customer": 119409,
+            "admin_notes": "1955-P MS62BN Expected to cost $5300. RB and RD examples expected to cost much more. Please advise if your client is willing to go up on their budget or if we should look for circulated examples.",
+            "description": "1955 Lincoln Double Die",
+            "date_added": "2022-04-13 11:56:45.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 144,
+        "fields": {
+            "sold": false,
+            "grade": "MS70",
+            "notes": "Can we get more of these?",
+            "budget": 4295,
+            "status": "Approved",
+            "advisor": "TYH",
+            "customer": 319767,
+            "admin_notes": "You can offer at $4295",
+            "description": "2009 UHR St. Gaudens GDE",
+            "date_added": "2022-04-13 12:02:53.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 145,
+        "fields": {
+            "sold": false,
+            "grade": "MS70",
+            "notes": "",
+            "budget": 3000,
+            "status": "Denied",
+            "advisor": "JK",
+            "customer": 315553,
+            "admin_notes": "No selling MS70 ASEs separately at this time",
+            "description": "2013 and 2019 American Silver Eagles",
+            "date_added": "2022-04-13 13:16:13.000000",
+            "display_item": true
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 146,
+        "fields": {
+            "sold": false,
+            "grade": "PF69",
+            "notes": "I need 5",
+            "budget": 1500,
+            "status": "Pending",
+            "advisor": "BSS",
+            "customer": 131628,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "2016-W ASE from the 2019 West Point Horde release",
+            "date_added": "2022-04-14 11:30:51.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 147,
+        "fields": {
+            "sold": false,
+            "grade": "MS64",
+            "notes": "wants the set for his birth year",
+            "budget": 1200,
+            "status": "Pending",
+            "advisor": "MBE",
+            "customer": 326891,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1949 Year Set",
+            "date_added": "2022-04-14 12:43:22.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 148,
+        "fields": {
+            "sold": false,
+            "grade": "MS66RD",
+            "notes": "",
+            "budget": 2000,
+            "status": "Pending",
+            "advisor": "TYH",
+            "customer": 40735,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1931-D Lincoln Cent MS66 RD",
+            "date_added": "2022-04-14 14:21:08.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 149,
+        "fields": {
+            "sold": false,
+            "grade": "MS61",
+            "notes": "He is looking to purchase 5 to 10 of the 1889 Morgans MS61.",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "JK",
+            "customer": 253815,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "$1 1889-CC Morgan Dollar MS61",
+            "date_added": "2022-04-14 15:24:18.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 150,
+        "fields": {
+            "sold": false,
+            "grade": "Ungraded",
+            "notes": "Fred Pope has every year's worth of Mint Sets in OGP except 1952 & 1953. They stated these sets in 1947.",
+            "budget": 8000,
+            "status": "Pending",
+            "advisor": "RM",
+            "customer": 130519,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1952 & 1953 Mint Year Set in OGP",
+            "date_added": "2022-04-15 12:57:49.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 151,
+        "fields": {
+            "sold": false,
+            "grade": "G",
+            "notes": "",
+            "budget": 6000,
+            "status": "Pending",
+            "advisor": "RM",
+            "customer": 250949,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Early 1800s or earlier Gold Coin",
+            "date_added": "2022-04-15 17:22:20.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 152,
+        "fields": {
+            "sold": false,
+            "grade": "PF70",
+            "notes": "Has the set of 20 J6682 2001-W TO 2021-W. wants to complete",
+            "budget": 5000,
+            "status": "Pending",
+            "advisor": "SW",
+            "customer": 319653,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1986-W to 2000-W  American silver Eagles set of 15",
+            "date_added": "2022-04-18 10:03:28.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 153,
+        "fields": {
+            "sold": false,
+            "grade": "MS70 or PF 70",
+            "notes": "",
+            "budget": 4500,
+            "status": "Pending",
+            "advisor": "ASO",
+            "customer": 145736,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "2006 Gold buffalo",
+            "date_added": "2022-04-18 10:15:03.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 154,
+        "fields": {
+            "sold": false,
+            "grade": "MS66",
+            "notes": "",
+            "budget": 3000,
+            "status": "Pending",
+            "advisor": "JK",
+            "customer": 233700,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1964-D Kennedy Half Dollar MS66; 1968-D Kennedy MS66; 1970-D Kennedy MS66",
+            "date_added": "2022-04-18 11:40:44.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 155,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "",
+            "budget": 2500,
+            "status": "Pending",
+            "advisor": "LP",
+            "customer": 300276,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Morgan Dollars 82,83,85,86 S mintmark MS63 or better",
+            "date_added": "2022-04-18 13:51:15.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 156,
+        "fields": {
+            "sold": false,
+            "grade": "MS63",
+            "notes": "",
+            "budget": 2500,
+            "status": "Pending",
+            "advisor": "LP",
+            "customer": 300276,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Morgan Dollars 82,83,85,86 S mintmark MS63 or better",
+            "date_added": "2022-04-18 13:51:35.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 157,
+        "fields": {
+            "sold": false,
+            "grade": "BU",
+            "notes": "",
+            "budget": 3000,
+            "status": "Pending",
+            "advisor": "LP",
+            "customer": 293952,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1891 Morgans  in BU with mintmarks P,O and S",
+            "date_added": "2022-04-18 14:20:47.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 158,
+        "fields": {
+            "sold": false,
+            "grade": "AU50",
+            "notes": "",
+            "budget": 3000,
+            "status": "Pending",
+            "advisor": "JK",
+            "customer": 283779,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Standing Liberty Quarter sets 1916-1930",
+            "date_added": "2022-04-18 16:09:11.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 159,
+        "fields": {
+            "sold": false,
+            "grade": "MS63 or better",
+            "notes": "",
+            "budget": 15000,
+            "status": "Pending",
+            "advisor": "LP",
+            "customer": 294786,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "Morgan Dollars 96 and 97 mintmark O",
+            "date_added": "2022-04-18 17:16:43.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 160,
+        "fields": {
+            "sold": false,
+            "grade": "MS",
+            "notes": "",
+            "budget": 8000,
+            "status": "Pending",
+            "advisor": "ASO",
+            "customer": 325527,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "1861 and 1865 silver dollar ",
+            "date_added": "2022-04-19 07:56:19.000000",
+            "display_item": false
+        }
+    },
+    {
+        "model": "liberty.requestlog",
+        "pk": 161,
+        "fields": {
+            "sold": false,
+            "grade": "64",
+            "notes": "",
+            "budget": 1500,
+            "status": "Pending",
+            "advisor": "ABA",
+            "customer": 3550,
+            "admin_notes": "Please come back later to see any additional notes from the buyers.",
+            "description": "battle of Gettysburg 1936 MS65",
+            "date_added": "2022-04-19 11:06:09.000000",
+            "display_item": false
+        }
+    }
+]
