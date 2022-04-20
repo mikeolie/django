@@ -2,21 +2,13 @@ import django
 from django.db import models
 from django.contrib.postgres.fields import ArrayField
 
-
-class Test(models.Model):
-    name = models.CharField(max_length=120)
-    age = models.IntegerField(default=0, blank=True)
-
-
 def array_default():
     return list([''])
-
 
 class Category(models.Model):
     name = models.CharField(default="", max_length=120)
     parent_category = models.ForeignKey(
         "self", null=True, blank=True, on_delete=models.DO_NOTHING)
-
 
 class RequestLog(models.Model):
     advisor = models.CharField(default="", max_length=120)
@@ -27,10 +19,9 @@ class RequestLog(models.Model):
     notes = models.TextField(default="")
     admin_notes = models.TextField(default="")
     status = models.CharField(default="", max_length=120)
-    sold = models.CharField(default="", max_length=120)
-    display_y_n = models.CharField(default="", max_length=120)
-    timestamp = models.DateTimeField(default=django.utils.timezone.now)
-
+    sold = models.BooleanField(default="", blank=True, max_length=120)
+    display_item = models.BooleanField(default=False, blank=False, max_length=120)
+    date_added = models.DateTimeField(default=django.utils.timezone.now)
 
 class Products(models.Model):
     date_added = models.DateTimeField(default=django.utils.timezone.now)
