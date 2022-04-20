@@ -11,7 +11,7 @@ from django.contrib.auth import logout, login
 
 from liberty.models import Products, RequestLog
 
-from liberty.serializers import ProductSerializer, RequestlogSerializer, CreateRequestLogSerializer
+from liberty.serializers import RequestlogSerializer, CreateRequestLogSerializer
 
 env = environ.Env()
 auth = LDAPBackend()
@@ -74,7 +74,7 @@ class CreateRequestLogView(APIView):
             host =  # need to connect it to a host, I suppose LDAP
             queryset = RequestLog.objects.filter(host=host)
             if queryset.exists():
-                # Do nothing
+                print('n/a')
             else:
                 create = RequestLog(host=host, advisor=advisor, customer=customer,
                                     description=description, budget=budget, grade=grade, notes=notes,)
