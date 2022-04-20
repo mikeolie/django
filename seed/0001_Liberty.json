@@ -1,21 +1,5 @@
 [
   {
-    "model": "liberty.test",
-    "pk": 1,
-    "fields": {
-      "name": "Prove speech live drop. Voice risk against turn. Condition discuss interesting social outside need director that.",
-      "age": 25463
-    }
-  },
-  {
-    "model": "liberty.test",
-    "pk": 2,
-    "fields": {
-      "name": "Program truth again figure upon benefit relate soon. Inside near everything check in western.",
-      "age": -6668
-    }
-  },
-  {
     "model": "liberty.category",
     "pk": 1,
     "fields": {
@@ -413,40 +397,6 @@
     "fields": {
       "name": "Militaria",
       "parent_category": 48
-    }
-  },
-  {
-    "model": "liberty.requestlog",
-    "pk": 1,
-    "fields": {
-      "advisor": "Take defense at. Next none campaign where.\nValue hard also animal.\nTough because political physical one.",
-      "customer": -25136,
-      "description": "Thousand sometimes attorney. Throw whom save although. Number term represent better begin provide artist.",
-      "budget": "0.70",
-      "grade": "Role individual exist then big long. Eye collection education until any. Crime step wear Republican take never.",
-      "notes": "About pretty answer bag father Mrs. Indicate response strategy challenge ability. Teach dog expect religious improve.",
-      "admin_notes": "Everyone process ball each interview red value. Even agency theory base approach of. Report treatment keep soon.",
-      "status": "Try today she bag. A place life store improve kid dark. End need reveal sure performance social leave need.",
-      "sold": "Quickly material treatment force far. Too establish word. Four never happen true.",
-      "display_y_n": "Foot role president sell machine government cause. Man knowledge less ground.",
-      "timestamp": "2022-04-13T22:52:23.777Z"
-    }
-  },
-  {
-    "model": "liberty.requestlog",
-    "pk": 2,
-    "fields": {
-      "advisor": "Candidate debate drug Mr.",
-      "customer": 20595,
-      "description": "Plan enough former keep choose price look. Though alone budget goal challenge describe.",
-      "budget": "0.13",
-      "grade": "Notice imagine walk series national model chair. Task company follow ball.",
-      "notes": "Question security six brother mouth.\nSpend imagine state sing. Capital begin help various themselves exactly part.\nBy laugh thousand job. Likely speech commercial finish huge.",
-      "admin_notes": "Event product include spend month. Let democratic art ago wear control. Significant value life lawyer.",
-      "status": "Participant study listen protect claim.",
-      "sold": "Development themselves whom himself miss generation. Bag who trade affect make decade.",
-      "display_y_n": "Theory least sing participant section. Name present free none visit middle loss. Office trade protect shake third.",
-      "timestamp": "2022-04-13T22:52:23.777Z"
     }
   },
   {
