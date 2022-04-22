@@ -195,17 +195,3 @@ CORS_ORIGIN_WHITELIST = {
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# # # # # --- LDAP SAMPLE CONN --- # # # # #
-
-con = ldap.initialize(env('LDAP_SERVER_URI'))
-con.simple_bind_s(env('LDAP_USER'), env('LDAP_PASS'))
-results = con.search_s(env('LDAP_TREE'), ldap.SCOPE_SUBTREE)
-
-# # # # # --- LDAP SERVER CONFIG --- # # # # #
-logfile = "/tmp/django-ldap-debug.log"
-my_logger = logging.getLogger('django_auth_ldap')
-my_logger.setLevel(logging.DEBUG)
-handler = logging.handlers.RotatingFileHandler(
-    logfile, maxBytes=1024 * 500, backupCount=5)
-my_logger.addHandler(handler)
