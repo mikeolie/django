@@ -12,8 +12,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import environ
+import os
 import ldap
-from django_auth_ldap.config import LDAPSearch
 import logging
 import logging.handlers
 
@@ -39,15 +39,13 @@ except KeyError as e:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost").split(",")
 
 # # # # # --- LDAP SERVER CONFIG --- # # # # #
 
 AUTH_LDAP_SERVER_URI = env('LDAP_SERVER_URI')
 AUTH_LDAP_BIND_DN = env('LDAP_USER')
 AUTH_LDAP_BIND_PASSWORD = env('LDAP_PASS')
-AUTH_LDAP_USER_SEARCH = LDAPSearch(
-    env('LDAP_TREE'), ldap.SCOPE_SUBTREE, "sAMAccountName=%(user)s")
 
 AUTH_LDAP_USER_ATTR_MAP = {
     "first_name": "givenName",
@@ -87,6 +85,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication'
     ]
 }
+
+
 
 # Application definition
 
@@ -133,6 +133,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'web_project.wsgi.application'
 
 
+DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
