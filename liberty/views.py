@@ -2,13 +2,11 @@ import json
 import environ
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse, HttpResponseServerError, JsonResponse
-from django_auth_ldap.backend import LDAPBackend
-from django.contrib.auth import logout, login
+from django.contrib.auth import logout
 
 from liberty.models import Category, Products, RequestLog
 
 env = environ.Env()
-auth = LDAPBackend()
 
 
 def index(request):
@@ -18,12 +16,6 @@ def index(request):
 
 
 def signIn(request):
-    user = auth.authenticate(request, username=env(
-        'LDAP_USER'), password=env('LDAP_PASS'))
-    if user is None:
-        return JsonResponse({"message": "unable to get user"}, status=401)
-
-    login(request, user=user, backend='django.contrib.auth.backends.ModelBackend')
     return JsonResponse({'message': "Signed In!"})
 
 
