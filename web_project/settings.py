@@ -15,6 +15,8 @@ import environ
 import os
 import ldap
 import logging
+import dj_database_url
+import sys
 import logging.handlers
 
 # Initialize environment variables
@@ -39,7 +41,8 @@ except KeyError as e:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost").split(",")
+ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
+                          "127.0.0.1,localhost").split(",")
 
 # # # # # --- LDAP SERVER CONFIG --- # # # # #
 
@@ -85,7 +88,6 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication'
     ]
 }
-
 
 
 # Application definition
@@ -137,16 +139,23 @@ DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': env('DATABASE_NAME'),
-        'USER': env('DATABASE_USER'),
-        'PASSWORD': env('DATABASE_PASS'),
-        'HOST': env('DATABASE_HOST'),
-        'PORT': '5432',
+if os.getenv("DEVELOPMENT_MODE", "False") == "True":
+    DATABASES = {
+        "default": {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': env('DATABASE_NAME'),
+            'USER': env('DATABASE_USER'),
+            'PASSWORD': env('DATABASE_PASS'),
+            'HOST': env('DATABASE_HOST'),
+            'PORT': '5432',
+        }
     }
-}
+elif len(sys.argv) > 0 and sys.argv[1] != 'collectstatic':
+    if os.getenv("DATABASE_URL", None) is None:
+        raise Exception("DATABASE_URL environment variable not defined")
+    DATABASES = {
+        "default": dj_database_url.parse(os.environ.get("DATABASE_URL")),
+    }
 
 
 # Password validation
