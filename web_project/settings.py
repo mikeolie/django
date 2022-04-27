@@ -14,11 +14,7 @@ from pathlib import Path
 import environ
 import os
 import ldap
-import logging
-import dj_database_url
-import sys
-import logging.handlers
-
+from django_auth_ldap.config import LDAPSearch
 # Initialize environment variables
 
 env = environ.Env()
@@ -49,6 +45,8 @@ ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
 AUTH_LDAP_SERVER_URI = env('LDAP_SERVER_URI')
 AUTH_LDAP_BIND_DN = env('LDAP_USER')
 AUTH_LDAP_BIND_PASSWORD = env('LDAP_PASS')
+AUTH_LDAP_USER_SEARCH = LDAPSearch(
+    env('LDAP_TREE'), ldap.SCOPE_SUBTREE, "sAMAccountName=%(user)s")
 
 AUTH_LDAP_USER_ATTR_MAP = {
     "first_name": "givenName",
@@ -134,28 +132,19 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'web_project.wsgi.application'
 
-
-DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-if os.getenv("DEVELOPMENT_MODE", "False") == "True":
-    DATABASES = {
-        "default": {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': env('DATABASE_NAME'),
-            'USER': env('DATABASE_USER'),
-            'PASSWORD': env('DATABASE_PASS'),
-            'HOST': env('DATABASE_HOST'),
-            'PORT': '5432',
-        }
+DATABASES = {
+    "default": {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': env('DATABASE_NAME'),
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASS'),
+        'HOST': env('DATABASE_HOST'),
+        'PORT': '5432',
     }
-elif len(sys.argv) > 0 and sys.argv[1] != 'collectstatic':
-    if os.getenv("DATABASE_URL", None) is None:
-        raise Exception("DATABASE_URL environment variable not defined")
-    DATABASES = {
-        "default": dj_database_url.parse(os.environ.get("DATABASE_URL")),
-    }
+}
 
 
 # Password validation
